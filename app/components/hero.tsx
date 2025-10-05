@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button"
 import { Github, Linkedin, Mail } from "lucide-react"
-import Image from "next/image"
 
 export function Hero() {
   return (
@@ -10,7 +9,7 @@ export function Hero() {
           {/* Text Content */}
           <div className="flex-1 text-center lg:text-left">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold mb-6">
-              Hi, I'm{" "}
+              {"Hi, I'm"}{" "}
               <span className="bg-gradient-to-r from-yellow-400 to-orange-500 bg-clip-text text-transparent">
                 Rayella Sruthin Teja
               </span>

@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
-import { GraduationCap, BookOpen, Calendar } from "lucide-react"
+import { BookOpen, Calendar } from "lucide-react"
 
 export function Education() {
   const education = [
